@@ -1,0 +1,5 @@
+import ConnectToDatabase from './server/database';
+import HttpServer from './server/httpserver';
+
+ConnectToDatabase();
+HttpServer();
